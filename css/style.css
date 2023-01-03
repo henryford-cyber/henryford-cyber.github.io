@@ -1,0 +1,441 @@
+/* color: #2196F3; */
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #100e17;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+p,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #555555;
+}
+
+#Header .wrapper .navbar {
+    margin: 20px;
+    gap: 100px;
+    justify-content: center;
+}
+
+#Header .wrapper .navbar .nav-item a {
+    border-bottom: 2px solid transparent;
+    font-weight: bold;
+    font-size: 18px;
+    opacity: 1;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+#Header .wrapper .navbar .nav-item a:hover {
+    color: #2196F3;
+}
+
+/* #Header .wrapper .navbar .nav-item .active {
+    border-bottom: 2px solid white; 
+} */
+
+#Content .wrapper {
+    padding: 50px 0;
+}
+
+#Content .wrapper .home {
+    padding: 100px 0;
+}
+
+#Content .wrapper .home .info .hello {
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #2196F3;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 30px 30px 30px 0;
+}
+
+#Content .wrapper .home .info .name {
+    font-weight: bold;
+    font-size: 38px;
+    padding: 30px 0 10px 0;
+}
+
+#Content .wrapper .home .info .work {
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 30px;
+}
+
+#Content .wrapper .home .info .mail-phone-add li {
+    padding: 5px;
+}
+
+#Content .wrapper .home .info .mail-phone-add li i {
+    font-size: 14px;
+    margin-right: 10px;
+
+}
+
+#Content .wrapper .home .info .mail-phone-add li:hover i {
+    color: #2196F3;
+}
+
+#Content .wrapper .home .info .mail-phone-add li a {
+    font-size: 14px;
+}
+
+#Content .wrapper .home .info .link {
+    padding-top: 30px;
+    gap: 15px;
+}
+
+#Content .wrapper .home .info .link li {
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+#Content .wrapper .home .info .link li a i {
+    font-size: 16px;
+}
+
+#Content .wrapper .home .info .link li:hover {
+    background-color: white;
+    opacity: 0.8;
+
+}
+
+#Content .wrapper .home .info .link li:hover i {
+    color: #2196F3;
+}
+
+#Content .wrapper .home .images {
+    margin-left: 150px;
+    border-radius: 50%;
+}
+
+#Content .wrapper .home .images .box-img {
+    border: 25px solid black;
+    border-radius: 50%;
+}
+
+#Content .wrapper .home .images .box-img .border {
+    border: 25px solid #100e17;
+    border-radius: 50%;
+}
+
+#Content .wrapper .home .images .box-img .border img {
+    width: 350px;
+    border-radius: 50%;
+}
+
+#Content .wrapper .about {
+    gap: 100px;
+}
+
+#Content .wrapper .about .img {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+#Content .wrapper .about .img img {
+    max-width: 90%;
+    height: auto;
+}
+
+#Content .wrapper .about .text {
+    padding-left: 20px;
+}
+
+#Content .wrapper .about .text .title {
+    padding: 20px 0;
+}
+
+#Content .wrapper .about .text .button {
+    padding: 20px 0;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#Content .wrapper .about .text .button li {
+    padding: 5px 10px;
+    border: 1px solid #2196F3;
+    border-radius: 5px;
+}
+
+#Content .wrapper .what-i-do {
+    padding: 200px 0;
+
+}
+
+#Content .wrapper .what-i-do .list-item {
+
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+}
+
+#Content .wrapper .what-i-do .title {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+}
+
+#Content .wrapper .what-i-do .list-item .item {
+    padding: 30px 20px;
+    border-radius: 10px;
+    background-color: #202026;
+    box-shadow: -1rem 0 3rem #000;
+
+}
+
+#Content .wrapper .what-i-do .list-item .item .icon i {
+    font-size: 32px;
+}
+
+#Content .wrapper .what-i-do .list-item .item .desk i {
+    color: #2196F3;
+}
+
+#Content .wrapper .what-i-do .list-item .item .web i {
+    color: rgb(202, 75, 75);
+}
+
+#Content .wrapper .what-i-do .list-item .item .app i {
+    color: blueviolet;
+
+}
+
+#Content .wrapper .what-i-do .list-item .item h2 {
+    padding: 20px 0;
+}
+
+#Content .wrapper .what-i-do .list-item .item p {
+    font-size: 13px;
+}
+
+#Content .wrapper .what-i-do .list-item {
+    gap: 30px;
+}
+
+/* #Content .wrapper .skill{
+    gap: ;
+} */
+#Content .wrapper .skill {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 150px;
+}
+
+#Content .wrapper .skill .title {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+#Content .wrapper .skill .technical .list-skill .skill-item .item {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    margin-bottom: 30px;
+}
+
+#Content .wrapper .skill .technical .list-skill .skill-item .item .info {
+    position: relative;
+
+}
+
+#Content .wrapper .skill .technical .list-skill .skill-item .item .progressBar {
+    background: rgba(199, 198, 198, 0.6);
+    position: relative;
+    width: 100%;
+    height: 7px;
+    margin: 30px 0 2px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+#Content .wrapper .skill .technical .list-skill .skill-item .item .progressBar .percentagem {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 7px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #2196F3;
+
+}
+
+#Content .wrapper .skill .technical .list-skill .skill-item .item .info .name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+#Content .wrapper .skill .technical .list-skill .skill-item .item .info .num {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#Content .wrapper .skill .professional {
+    margin-left: 150px;
+}
+
+#Content .wrapper .skill .professional .list-pro {
+    gap: 70px;
+    flex-wrap: wrap;
+}
+
+#Content .wrapper .skill .professional ul li .item {
+    display: inline-block;
+    width: 125px;
+    height: 125px;
+}
+
+#Content .wrapper .skill .professional ul li .name {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#Content .education {
+    padding: 150px 0;
+}
+
+#Content .education .list-item {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 50px;
+}
+
+#Content .education .list-item .item .title {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+#Content .education .list-item .item-info {
+    background-color: #202026;
+    padding: 25px 30px;
+}
+
+#Content .education .list-item .item-info h3 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+#Content .education .list-item .item-info h3 span {
+    color: #2196F3;
+}
+
+#Content .contact .title {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#Content .contact .list-contact {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 30px;
+    padding-top: 50px;
+}
+
+#Content .contact .list-contact .contact-item {
+    background-color: #202026;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: -1rem 0 3rem #000;
+}
+
+#Content .contact .list-contact .contact-item h3 {
+    text-align: center;
+    padding: 30px;
+}
+
+#Content .contact .list-contact .contact-item a {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+#Content .contact .list-contact .contact-item .icon i {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    border-radius: 50%;
+    line-height: 100px;
+    font-size: 20px;
+    border-color: #2196F3;
+}
+
+#Content .contact .list-contact .contact-item .icon {
+    display: flex;
+    justify-content: center;
+}
